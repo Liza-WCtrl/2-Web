@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta charset="utf-8">
+	<!--mate kodla sayfanın bilgileri girdim-->
+	<meta name="title" content="Hakkımda"/>
+	<meta name="description" content="Kişisel Web Sayfası"/>
+	<meta name="keywords" content="Liza-WCtrl,HTML,web,bilgi"/>
+	<meta name="author" content="Liza-WCtrl"/>
+	<meta name="refresh" content="20"/>
+<title>Hakkımda</title>
+	<!-- bodydeki kod sayede arka plandaki resmini hareket etmesini engelledim-->
+	<style>
+		 body{
+        background-image: url("img/Arka plan.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+		.card{
+			margin: 20px;
+			width: 65%;
+			box-shadow:0 8px 30px rgba(0,0,0,0.8);
+			border-radius: 5px;
+			background-color: black;
+			float: left;
+		}
+		.btn{
+			padding: 15px 25px;
+			text-decoration: none;
+			display: inline-block;
+			background-color: #810002;
+			color: white;
+			transition: padding 0.5s, background 0.5s;
+		}
+		.btn:hover{
+			padding: 15px 45px;
+			opacity: 0.9;
+		}
+		.card2{
+			margin: 20px 40px;
+			width: 25%;
+			box-shadow:0 8px 8px rgba(0,0,0,0.8);
+			border-radius: 5px;
+			background-color: black;
+			float: right;
+		}
+		.link{
+			color: white;
+			text-decoration: none;
+		}
+		.card3{
+			margin: 20px 40px;
+			width: 25%;
+			box-shadow:0 8px 8px rgba(0,0,0,0.8);
+			border-radius: 5px;
+			background-color: black;
+			float: right;
+		}
+		.card-title{
+			color: #810002;
+			padding: 15px;
+		}
+		.card-text{
+			color: white;
+			padding: 15px;
+		}
+		i{font-size: 25px;
+		padding: 8px;}
+		.i-1:hover{color: #01009C;}
+		.i-2:hover{color: #1F66C5;}
+		.i-3:hover{color: #C50003;}
+		.i-4:hover{color: #88138F;}
+		.i-5:hover{color: #0D0082;}
+		.card2link:hover{color: #720001; font-size: 15px;}
+		.kenar{
+			border-style: double;
+			border-width: 4px;
+			border-color: black black #720001 black;
+		}
+	</style>
+</head>
+
+<body>
+	<!--1 card-->
+	<div class="card">
+		<!--butonlar-->
+		<table align="center">
+			<tr>
+				<td>
+				<a href="./index.html" class="btn" target="_blank">Anasayfa</a>
+				<a href="./About.html" class="btn" target="_blank">Hakkımda</a>
+				<a href="./Blog.html" class="btn" target="_blank">Blog</a>
+				<a href="./Gallery.html" class="btn" target="_blank">Galeri</a>
+				<a href="./Communication.html" class="btn" target="_blank">İletişim</a>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<!--Resim-->
+		<table align="center">
+			<tr>
+				<td>
+					<img src="img/HakkimdaRes1.JPG" alt="profil" class="card-image">
+				</td>
+			</tr>
+		</table>
+		<br><br>
+		<!--Baslik ve paragraf-->
+		<h3 class="card-title">Liza-WCtrl</h3>
+		<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores exercitationem maxime inventore a natus molestiae possimus, consequatur ducimus sit unde, nisi dicta iste rem, debitis.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit totam ex quo expedita inventore fugit voluptate magnam alias quae. Impedit, eum! Quas accusantium eius dolores!</p>
+	</div>
+	<!--2 card-->
+	<div class="card2">
+		<h3 class="card-title kenar">Linkler</h3>
+		<ul class="link" type="none">
+			<li><a href="#" class="link card2link" target="_blank"><i class="fa-solid fa-terminal" style="font-size:13px;"></i>  1.Link</a></li><br>
+			<li><a href="#" class="link card2link" target="_blank"><i class="fa-solid fa-terminal" style="font-size:13px;"></i>  2.Link</a></li><br>
+			<li><a href="#" class="link card2link" target="_blank"><i class="fa-solid fa-terminal" style="font-size:13px;"></i>  3.Link</a></li><br>
+			<li><a href="#" class="link card2link" target="_blank"><i class="fa-solid fa-terminal" style="font-size:13px;"></i>  4.Link</a></li><br>
+		</ul>
+	</div>
+	<div class="card3">
+		<h3 class="card-title kenar">Sosyal Medya</h3>
+		<a href="https://tr-tr.facebook.com/" class="link" target="_blank"><i class="fa-brands fa-facebook i-1"></i></a>
+		<a href="https://twitter.com/?lang=tr" class="link" target="_blank"><i class="fa-brands fa-twitter i-2"></i></a>
+		<a href="https://www.youtube.com/?app=desktop&gl=TR&hl=tr" class="link" target="_blank"><i class="fa-brands fa-youtube i-3"></i></a>
+		<a href="https://www.instagram.com/" class="link" target="_blank"><i class="fa-brands fa-instagram i-4"></i></a>
+		<a href="https://discord.com/" class="link" target="_blank"><i class="fa-brands fa-discord i-5"></i></a>
+	</div>
+</body>
+</html>
